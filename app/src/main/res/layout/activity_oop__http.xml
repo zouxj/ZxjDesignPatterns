@@ -1,9 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
                                              xmlns:app="http://schemas.android.com/apk/res-auto"
                                              xmlns:tools="http://schemas.android.com/tools"
                                              android:layout_width="match_parent"
+                                                android:orientation="vertical"
                                              android:layout_height="match_parent"
                                              tools:context="._01面向对象6大原则_网络库切换.Oop_Http">
 
-</android.support.constraint.ConstraintLayout>
+    <TextView
+        android:id="@+id/tv_context"
+        android:scrollbars="vertical"
+        android:fadeScrollbars="false"
+        android:padding="5dp"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:text="@string/oop_6"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

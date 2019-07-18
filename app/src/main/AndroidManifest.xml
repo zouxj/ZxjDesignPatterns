@@ -16,6 +16,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="._01面向对象6大原则_网络库切换.Oop_Http"/>
     </application>
 
 </manifest>
